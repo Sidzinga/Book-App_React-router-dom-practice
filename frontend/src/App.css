@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li {
+  float:left;
+}
+
+a{
+  display: block;
+  padding: 8px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+.dash{
+  height:80px;
+  background-color: antiquewhite;
+  z-index: 2;
+  width: 800px;
+}
+li a:hover {
+  background-color: #111;
+}
+
+.Layout {
+background-color: rgb(59, 59, 74);
+color: black;
+height: max-content;
+
+}
+.content {
+  height: 300px;
+}
+
+.nav {
+ 
+
+background-color: cadetblue;
+;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#info{
+  padding: 5px;
+  background-color: #9482a7;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.books{
+  color: antiquewhite;
+  background-color: aqua;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.homePage{
+  padding: 40px;
+  background-color: #0e7e9d;
+  height: 80px;
+}
